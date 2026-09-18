@@ -5,8 +5,8 @@
  * - NovelAI API 같은 다른 출처 요청은 절대 건드리지 않는다.
  * - 새 버전은 기다렸다가, 앱이 "업데이트" 버튼으로 SKIP_WAITING을 보내면 교체된다.
  */
-const CACHE = "nai-mobile-ea6a99f410cc";
-const PRECACHE = ["./","assets/index-CG2tchVd.js","assets/index-D07Yv27V.css","icons/apple-touch-icon.png","icons/favicon-64.png","icons/icon-192.png","icons/icon-512.png","icons/icon-maskable-512.png","manifest.webmanifest","tags.csv"];
+const CACHE = "nai-mobile-6e107b83a076";
+const PRECACHE = ["./","assets/index-CtMj7W4k.css","assets/index-K-up86an.js","icons/apple-touch-icon.png","icons/favicon-64.png","icons/icon-192.png","icons/icon-512.png","icons/icon-maskable-512.png","manifest.webmanifest","tags.csv"];
 
 self.addEventListener("install", (event) => {
   event.waitUntil(caches.open(CACHE).then((cache) => cache.addAll(PRECACHE)));
